@@ -79,7 +79,7 @@ record_test(
   abs(TRIAL$burden_A_qaly - TRIAL$burden_B_qaly) < TOL
 )
 record_test(
-  "Final simulation uses 20000 draws",
+  "Simulation uses 20000 draws",
   identical(as.integer(SIMULATION$nsim), 20000L)
 )
 record_test(

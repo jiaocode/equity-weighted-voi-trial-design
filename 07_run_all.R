@@ -1,8 +1,8 @@
 # ==============================================================================
 # 07_run_all.R
-# Clean, reproducible driver for the complete main and appendix workflow.
-# Every substantive script runs in a separate --vanilla R session. Child stdout
-# and stderr are retained and printed when a step fails.
+# Driver for the main and appendix workflow. Each substantive script runs in a
+# separate --vanilla R session. Child stdout and stderr are retained and printed
+# when a step fails.
 # ==============================================================================
 
 script_directory <- function() {

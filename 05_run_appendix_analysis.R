@@ -23,7 +23,7 @@ source(file.path(ROOT, "01_hierarchical_model_functions.R"), local = TRUE)
 source(file.path(ROOT, "02_value_functions.R"), local = TRUE)
 
 if (!isTRUE(APPENDIX_SIMULATION$use_common_random_numbers)) {
-  stop("The final appendix analysis requires common random numbers.", call. = FALSE)
+  stop("The appendix analysis requires common random numbers.", call. = FALSE)
 }
 
 ANALYSIS_SIGNATURE <- compute_analysis_signature(ROOT)

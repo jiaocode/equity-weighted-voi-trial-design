@@ -3,7 +3,7 @@
 # Prespecified inputs and reproducibility settings for the two-group
 # hierarchical wEVSI / wENBS analysis.
 #
-# Final workflow:
+# Run the workflow with:
 #   Rscript --vanilla 07_run_all.R
 #
 # This file is the only place where the case-study inputs, simulation size,
@@ -47,7 +47,7 @@ ANALYSIS_SOURCE_FILES <- c(
 )
 
 REPRODUCIBILITY <- list(
-  analysis_version = "2026-07-31-final-audited-v2",
+  analysis_version = "2026-07-31-v1",
   minimum_r_version = "4.0.0",
   rng_version = "4.0.0",
   rng_kind = "Mersenne-Twister",
@@ -119,7 +119,6 @@ compute_runtime_signature <- function() {
 }
 
 SIMULATION <- list(
-  mode = "final",
   nsim = 20000L,
   n_batches = 50L,
   allocation_step = 0.01,
