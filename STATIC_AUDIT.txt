@@ -1,0 +1,24 @@
+FINAL STATIC AUDIT
+==================
+Regenerated: 2026-07-31
+
+All expected workflow files are present.
+No library(), require(), |> or %>% calls remain in R source.
+Main recruitment-cost scenarios are exactly 0, 3000, and 6000 USD.
+Appendix recruitment-cost scenario is exactly 0 USD.
+Participation burdens are exactly 0.010 QALYs for both subgroups.
+Simulation is called before loops over weights, decisions, and costs.
+Shell wrapper passed sh -n.
+Full workflow executed under R 4.4.1; all 56 validation tests passed.
+Two consecutive runs produced byte-identical key CSV outputs.
+
+00_analysis_parameters.R: 290 lines
+01_hierarchical_model_functions.R: 784 lines
+02_value_functions.R: 396 lines
+03_run_main_analysis.R: 374 lines
+04_make_main_figures.R: 523 lines
+05_run_appendix_analysis.R: 408 lines
+06_make_appendix_figures.R: 375 lines
+07_run_all.R: 221 lines
+08_run_validation_tests.R: 519 lines
+run_final_analysis.sh: 13 lines

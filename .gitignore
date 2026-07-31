@@ -1,0 +1,18 @@
+# Manuscript and other documents must never be committed to the code release.
+*.docx
+*.doc
+*.pdf
+*.pptx
+
+# Generated outputs. Recreate them with ./run_final_analysis.sh
+results/
+figures/
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# macOS
+.DS_Store
