@@ -33,11 +33,11 @@ takes roughly three minutes on a current laptop.
 | Input | Value |
 | --- | --- |
 | Population share | Group A 17%, Group B 83% |
-| Current estimated INB (standard error) | Group A 0.41 (0.57), Group B −0.15 (0.18) |
+| Current estimated INB (standard error) | Group A 0.41 (0.57), Group B -0.15 (0.18) |
 | Total trial sample size | 600, randomized 1:1 within each subgroup |
 | Outcome standard deviation | 2 in each subgroup |
-| Allocation grid | 5%–95% Group A, in one-percentage-point steps |
-| Borrowing models | near-complete (ω = 0.001), moderate (ω ~ Half-Normal(0, 0.30)), near-no (ω = 3.0) |
+| Allocation grid | 5%-95% Group A, in one-percentage-point steps |
+| Borrowing models | near-complete (omega = 0.001), moderate (omega ~ Half-Normal(0, 0.30)), near-no (omega = 3.0) |
 | Decision structures | common population-level, subgroup-specific |
 | Raw equity weights | Group A 1, 1.5, or 2; Group B 1 |
 | Annual eligible population | 15,000 over a 10-cohort horizon, 3% discount rate |
@@ -95,7 +95,7 @@ fails, and the results are written to `results/validation_summary.csv`.
 ## Interpreting the maxima
 
 The filled point in each panel is the grid maximum. The Monte Carlo standard
-error of wENBS is roughly 20–50 QALYs per allocation. Under near-complete
+error of wENBS is roughly 20-50 QALYs per allocation. Under near-complete
 borrowing the wENBS curve varies by less than this across the entire allocation
 range, so the maximizing allocation is not identified in that column and the
 plotted point should not be read as a preferred design. The shape of the curve,
@@ -114,7 +114,7 @@ retains them under `results/logs/`, for example
 - `01_hierarchical_model_functions.R`: hierarchical posterior and predictive calculations
 - `02_value_functions.R`: equity weights, wEVSI, wENBS, costs, burdens, and grid maximization
 - `03_run_main_analysis.R`: main analysis
-- `04_make_main_figures.R`: Figures 1–4
+- `04_make_main_figures.R`: Figures 1-4
 - `05_run_appendix_analysis.R`: appendix evidence-profile analyses
 - `06_make_appendix_figures.R`: appendix figures
 - `07_run_all.R`: workflow driver, logging, signatures, and repeated-run comparison

@@ -1,7 +1,8 @@
 # ==============================================================================
 # 06_make_appendix_figures.R
-# Six appendix 9-panel wENBS figures: three evidence profiles crossed with the
-# common and subgroup-specific decision structures.
+# One wENBS figure per appendix evidence profile. Each figure has a common
+# population-level decision in the upper row and subgroup-specific decisions in
+# the lower row, with one column per borrowing model.
 # ==============================================================================
 
 script_directory <- function() {
